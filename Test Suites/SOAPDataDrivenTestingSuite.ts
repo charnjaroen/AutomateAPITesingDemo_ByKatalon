@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>SOAPDataDrivenTestingSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-11-27T02:32:13</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>9a3a7298-d4ca-476f-83d3-fab85833bf82</testSuiteGuid>
+   <testCaseLink>
+      <guid>1fc44646-0d48-4a1d-a804-a8e4cfc98fd9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SOAP Test Case/TestFour_DataDrivenDemo</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>cad047c5-9637-42c3-8141-faf86b2a014c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CountryData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>cad047c5-9637-42c3-8141-faf86b2a014c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ContryCode</value>
+         <variableId>f42ce040-a6a6-4421-9471-af1245878c92</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>cad047c5-9637-42c3-8141-faf86b2a014c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Capital</value>
+         <variableId>d26f1dd9-9ad1-48ea-84c1-1bd0f4e5cce3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>cad047c5-9637-42c3-8141-faf86b2a014c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Currency</value>
+         <variableId>02767d27-92a9-4ec7-bea8-be98cae88e92</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

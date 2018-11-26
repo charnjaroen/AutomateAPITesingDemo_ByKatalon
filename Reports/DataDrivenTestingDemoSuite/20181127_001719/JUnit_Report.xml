@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DataDrivenTestingDemoSuite" time="10" tests="3" failures="0" errors="0">
+   <testsuite name="DataDrivenTestingDemoSuite" tests="3" failures="0" errors="0" time="10" timestamp="2018-11-27 00:17:23" hostname="Ronnachai C - DESKTOP-0PTJ8Q3.mshome.net" id="Test Suites/DataDrivenTestingDemoSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ronnachai C\\Katalon Studio\\APITestingDemo\\Reports\\DataDrivenTestingDemoSuite\\20181127_001719"/>
+         <property name="logFiles" value="C:\\Users\\Ronnachai C\\Katalon Studio\\APITestingDemo\\Reports\\DataDrivenTestingDemoSuite\\20181127_001719\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ronnachai C - DESKTOP-0PTJ8Q3.mshome.net"/>
+         <property name="hostAddress" value="192.168.77.177"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+      </properties>
+      <testcase name="Test Cases/SOAP Test Case/TestFour_DataDrivenDemo" classname="Test Cases/SOAP Test Case/TestFour_DataDrivenDemo" status="PASSED">
+         <system-out><![CDATA[2018-11-27 00:17:23 - [TEST_CASE][PASSED] - Test Cases/SOAP Test Case/TestFour_DataDrivenDemo: Test Cases/SOAP Test Case/TestFour_DataDrivenDemo
+
+2018-11-27 00:17:24 - [TEST_STEP][PASSED] - Statement - response1 = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SOAP/CountryInfoSOAPService/GetCapital_DataDrivenTesting, [CountryCode:CountryCode1])): Send request successfully
+
+2018-11-27 00:17:27 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-27 00:17:27 - [TEST_STEP][PASSED] - verifyElementText: Verify element text successfully
+
+2018-11-27 00:17:28 - [MESSAGE][PASSED] - Verify element text successfully
+
+2018-11-27 00:17:28 - [TEST_STEP][PASSED] - Statement - response2 = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SOAP/CountryInfoSOAPService/GetCurrency_DataDrivenTesting, [CountryCode:CountryCode1])): Send request successfully
+
+2018-11-27 00:17:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-27 00:17:29 - [TEST_STEP][PASSED] - verifyElementText: Verify element text successfully
+
+2018-11-27 00:17:29 - [MESSAGE][PASSED] - Verify element text successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SOAP Test Case/TestFour_DataDrivenDemo" classname="Test Cases/SOAP Test Case/TestFour_DataDrivenDemo" status="PASSED">
+         <system-out><![CDATA[2018-11-27 00:17:29 - [TEST_CASE][PASSED] - Test Cases/SOAP Test Case/TestFour_DataDrivenDemo: Test Cases/SOAP Test Case/TestFour_DataDrivenDemo
+
+2018-11-27 00:17:29 - [TEST_STEP][PASSED] - Statement - response1 = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SOAP/CountryInfoSOAPService/GetCapital_DataDrivenTesting, [CountryCode:CountryCode1])): Send request successfully
+
+2018-11-27 00:17:30 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-27 00:17:30 - [TEST_STEP][PASSED] - verifyElementText: Verify element text successfully
+
+2018-11-27 00:17:30 - [MESSAGE][PASSED] - Verify element text successfully
+
+2018-11-27 00:17:30 - [TEST_STEP][PASSED] - Statement - response2 = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SOAP/CountryInfoSOAPService/GetCurrency_DataDrivenTesting, [CountryCode:CountryCode1])): Send request successfully
+
+2018-11-27 00:17:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-27 00:17:31 - [TEST_STEP][PASSED] - verifyElementText: Verify element text successfully
+
+2018-11-27 00:17:31 - [MESSAGE][PASSED] - Verify element text successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SOAP Test Case/TestFour_DataDrivenDemo" classname="Test Cases/SOAP Test Case/TestFour_DataDrivenDemo" status="PASSED">
+         <system-out><![CDATA[2018-11-27 00:17:31 - [TEST_CASE][PASSED] - Test Cases/SOAP Test Case/TestFour_DataDrivenDemo: Test Cases/SOAP Test Case/TestFour_DataDrivenDemo
+
+2018-11-27 00:17:31 - [TEST_STEP][PASSED] - Statement - response1 = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SOAP/CountryInfoSOAPService/GetCapital_DataDrivenTesting, [CountryCode:CountryCode1])): Send request successfully
+
+2018-11-27 00:17:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-27 00:17:32 - [TEST_STEP][PASSED] - verifyElementText: Verify element text successfully
+
+2018-11-27 00:17:32 - [MESSAGE][PASSED] - Verify element text successfully
+
+2018-11-27 00:17:32 - [TEST_STEP][PASSED] - Statement - response2 = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SOAP/CountryInfoSOAPService/GetCurrency_DataDrivenTesting, [CountryCode:CountryCode1])): Send request successfully
+
+2018-11-27 00:17:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-27 00:17:33 - [TEST_STEP][PASSED] - verifyElementText: Verify element text successfully
+
+2018-11-27 00:17:33 - [MESSAGE][PASSED] - Verify element text successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-27 00:17:23 - [TEST_SUITE][PASSED] - DataDrivenTestingDemoSuite: Test Cases/SOAP Test Case/TestFour_DataDrivenDemo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DataDrivenTestingDemoSuite,,,2018-11-27 00:10:06,2018-11-27 00:10:16,10.388s,FAILED
+,,,,,,
+Test Cases/SOAP Test Case/TestFour_DataDrivenDemo,,,2018-11-27 00:10:07,2018-11-27 00:10:12,5.368s,PASSED
+"Statement - response1 = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SOAP/CountryInfoSOAPService/GetCapital_DataDrivenTesting, [CountryCode:CountryCode1]))",,,2018-11-27 00:10:08,2018-11-27 00:10:10,2.448s,PASSED
+verifyElementText,,,2018-11-27 00:10:10,2018-11-27 00:10:11,0.526s,PASSED
+"Statement - response2 = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SOAP/CountryInfoSOAPService/GetCurrency_DataDrivenTesting, [CountryCode:CountryCode1]))",,,2018-11-27 00:10:11,2018-11-27 00:10:12,1.229s,PASSED
+verifyElementText,,,2018-11-27 00:10:12,2018-11-27 00:10:12,0.070s,PASSED
+,,,,,,
+Test Cases/SOAP Test Case/TestFour_DataDrivenDemo,,,2018-11-27 00:10:12,2018-11-27 00:10:14,2.215s,FAILED
+"Statement - response1 = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SOAP/CountryInfoSOAPService/GetCapital_DataDrivenTesting, [CountryCode:CountryCode1]))",,,2018-11-27 00:10:12,2018-11-27 00:10:14,2.069s,PASSED
+verifyElementText,,,2018-11-27 00:10:14,2018-11-27 00:10:14,0.089s,FAILED
+,,,,,,
+Test Cases/SOAP Test Case/TestFour_DataDrivenDemo,,,2018-11-27 00:10:14,2018-11-27 00:10:16,1.825s,FAILED
+"Statement - response1 = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SOAP/CountryInfoSOAPService/GetCapital_DataDrivenTesting, [CountryCode:CountryCode1]))",,,2018-11-27 00:10:14,2018-11-27 00:10:16,1.660s,PASSED
+verifyElementText,,,2018-11-27 00:10:16,2018-11-27 00:10:16,0.078s,FAILED
