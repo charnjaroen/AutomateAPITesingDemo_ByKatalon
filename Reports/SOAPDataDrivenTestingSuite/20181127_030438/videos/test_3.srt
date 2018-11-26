@@ -1,0 +1,16 @@
+1
+00:00:00,004 --> 00:00:00,012
+1. Statement - response1 = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SOAP/CountryInfoSOAPService/GetCapital_DataDrivenTesting, [CountryCode:CountryCode1]))
+
+2
+00:00:00,978 --> 00:00:00,981
+5. verifyElementText
+
+3
+00:00:01,100 --> 00:00:01,104
+9. Statement - response2 = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SOAP/CountryInfoSOAPService/GetCurrency_DataDrivenTesting, [CountryCode:CountryCode1]))
+
+4
+00:00:02,014 --> 00:00:02,016
+13. verifyElementText
+

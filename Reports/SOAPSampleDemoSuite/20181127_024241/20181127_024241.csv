@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SOAPSampleDemoSuite,,,2018-11-27 02:42:47,2018-11-27 02:43:03,15.949s,PASSED
+,,,,,,
+Test Cases/SOAP Test Case/TestOne,,,2018-11-27 02:42:49,2018-11-27 02:42:57,7.565s,PASSED
+sendRequestAndVerify,,,2018-11-27 02:42:51,2018-11-27 02:42:57,6.145s,PASSED
+,,,,,,
+Test Cases/SOAP Test Case/TestThree_Parameter,,,2018-11-27 02:42:57,2018-11-27 02:42:59,2.206s,PASSED
+sendRequest,,,2018-11-27 02:42:58,2018-11-27 02:42:59,1.091s,PASSED
+,,,,,,
+Test Cases/SOAP Test Case/TestTwo_APIChaining,,,2018-11-27 02:42:59,2018-11-27 02:43:03,4.117s,PASSED
+Statement - response1 = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SOAP/CountryInfoSOAPService/GetCountryListByNames)),,,2018-11-27 02:42:59,2018-11-27 02:43:01,1.322s,PASSED
+Statement - xml1 = responseBodyContent,,,2018-11-27 02:43:01,2018-11-27 02:43:01,0.655s,PASSED
+Statement - dataValue = new groovy.util.XmlSlurper().parseText(xml1),,,2018-11-27 02:43:01,2018-11-27 02:43:02,0.139s,PASSED
+Statement - countryCode = sISOCode,,,2018-11-27 02:43:02,2018-11-27 02:43:02,0.061s,PASSED
+Statement - countryCode = countryCode,,,2018-11-27 02:43:02,2018-11-27 02:43:02,0.005s,PASSED
+sendRequestAndVerify,,,2018-11-27 02:43:02,2018-11-27 02:43:03,1.418s,PASSED

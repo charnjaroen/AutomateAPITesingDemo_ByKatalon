@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestThree_DataDrivenDemo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ece39a9c-cf66-460e-be63-4d8c4391e7a4</testCaseGuid>
+   <variable>
+      <defaultValue>'Ronnachai'</defaultValue>
+      <description></description>
+      <id>b2eb8a7f-1db7-488e-b6a1-83cde325c6e9</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+</TestCaseEntity>

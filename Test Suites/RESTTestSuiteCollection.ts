@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
    <description></description>
-   <name>SOAPTestSuiteCollection</name>
+   <name>RESTTestSuiteCollection</name>
    <tag></tag>
    <executionMode>PARALLEL</executionMode>
    <testSuiteRunConfigurations>
@@ -12,7 +12,7 @@
             <runConfigurationId>Web Service</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/SOAPDataDrivenTestingSuite</testSuiteEntity>
+         <testSuiteEntity>Test Suites/RESTDataDrivenTestingSuite</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -21,7 +21,7 @@
             <runConfigurationId>Web Service</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/SOAPSampleDemoSuite</testSuiteEntity>
+         <testSuiteEntity>Test Suites/RESTSampleDemoSuite</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>CountryData</name>
+   <name>Username</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>3284b2cb-cff3-4da5-a0c9-8841a4345084</dataFileGUID>
-   <dataSourceUrl>C:\Users\Ronnachai C\Katalon Studio\APITestingDemo\Test Data\country_data - Copy.xls</dataSourceUrl>
+   <dataFileGUID>6766bb69-0a6e-4737-a21b-f5345276e6a4</dataFileGUID>
+   <dataSourceUrl>C:\Users\Ronnachai C\Katalon Studio\APITestingDemo\Test Data\username_data.xls</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>country</sheetName>
+   <sheetName>userName</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

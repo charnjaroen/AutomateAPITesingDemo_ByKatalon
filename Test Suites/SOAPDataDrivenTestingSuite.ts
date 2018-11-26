@@ -4,7 +4,7 @@
    <name>SOAPDataDrivenTestingSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-27T02:32:13</lastRun>
+   <lastRun>2018-11-27T03:26:56</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

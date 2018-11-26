@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SOAPSampleDemoSuite" time="15" tests="3" failures="0" errors="0">
+   <testsuite name="SOAPSampleDemoSuite" tests="3" failures="0" errors="0" time="15" timestamp="2018-11-27 02:42:47" hostname="Ronnachai C - DESKTOP-0PTJ8Q3.mshome.net" id="Test Suites/SOAPSampleDemoSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ronnachai C\\Katalon Studio\\APITestingDemo\\Reports\\SOAPSampleDemoSuite\\20181127_024241"/>
+         <property name="logFiles" value="C:\\Users\\Ronnachai C\\Katalon Studio\\APITestingDemo\\Reports\\SOAPSampleDemoSuite\\20181127_024241\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ronnachai C - DESKTOP-0PTJ8Q3.mshome.net"/>
+         <property name="hostAddress" value="192.168.77.177"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+      </properties>
+      <testcase name="Test Cases/SOAP Test Case/TestOne" classname="Test Cases/SOAP Test Case/TestOne" status="PASSED">
+         <system-out><![CDATA[2018-11-27 02:42:49 - [TEST_CASE][PASSED] - Test Cases/SOAP Test Case/TestOne: Test Cases/SOAP Test Case/TestOne
+
+2018-11-27 02:42:51 - [TEST_STEP][PASSED] - sendRequestAndVerify: Send request and verify the response successfully
+
+2018-11-27 02:42:55 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2018-11-27 02:42:56 - [TEST_STEP][PASSED] - Statement - request = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentRequest(): null
+
+2018-11-27 02:42:56 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentResponse(): null
+
+2018-11-27 02:42:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-27 02:42:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-11-27 02:42:56 - [TEST_STEP][PASSED] - Statement - org.assertj.core.api.Assertions.assertThat(response.getStatusCode()).isEqualTo(200): null
+
+2018-11-27 02:42:57 - [MESSAGE][PASSED] - Verify response successfully
+
+2018-11-27 02:42:57 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SOAP Test Case/TestThree_Parameter" classname="Test Cases/SOAP Test Case/TestThree_Parameter" status="PASSED">
+         <system-out><![CDATA[2018-11-27 02:42:57 - [TEST_CASE][PASSED] - Test Cases/SOAP Test Case/TestThree_Parameter: Test Cases/SOAP Test Case/TestThree_Parameter
+
+2018-11-27 02:42:58 - [TEST_STEP][PASSED] - sendRequest: Send request successfully
+
+2018-11-27 02:42:59 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SOAP Test Case/TestTwo_APIChaining" classname="Test Cases/SOAP Test Case/TestTwo_APIChaining" status="PASSED">
+         <system-out><![CDATA[2018-11-27 02:42:59 - [TEST_CASE][PASSED] - Test Cases/SOAP Test Case/TestTwo_APIChaining: Test Cases/SOAP Test Case/TestTwo_APIChaining
+
+2018-11-27 02:42:59 - [TEST_STEP][PASSED] - Statement - response1 = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SOAP/CountryInfoSOAPService/GetCountryListByNames)): Send request and verify the response successfully
+
+2018-11-27 02:43:00 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2018-11-27 02:43:01 - [TEST_STEP][PASSED] - Statement - request = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentRequest(): null
+
+2018-11-27 02:43:01 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentResponse(): null
+
+2018-11-27 02:43:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-27 02:43:01 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-11-27 02:43:01 - [TEST_STEP][PASSED] - Statement - org.assertj.core.api.Assertions.assertThat(response.getStatusCode()).isEqualTo(200): null
+
+2018-11-27 02:43:01 - [MESSAGE][PASSED] - Verify response successfully
+
+2018-11-27 02:43:01 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2018-11-27 02:43:01 - [TEST_STEP][PASSED] - Statement - xml1 = responseBodyContent: null
+
+2018-11-27 02:43:01 - [TEST_STEP][PASSED] - Statement - dataValue = new groovy.util.XmlSlurper().parseText(xml1): null
+
+2018-11-27 02:43:02 - [TEST_STEP][PASSED] - Statement - countryCode = sISOCode: null
+
+2018-11-27 02:43:02 - [TEST_STEP][PASSED] - Statement - countryCode = countryCode: null
+
+2018-11-27 02:43:02 - [TEST_STEP][PASSED] - sendRequestAndVerify: Send request and verify the response successfully
+
+2018-11-27 02:43:03 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2018-11-27 02:43:03 - [TEST_STEP][PASSED] - Statement - request = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentRequest(): null
+
+2018-11-27 02:43:03 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentResponse(): null
+
+2018-11-27 02:43:03 - [MESSAGE][PASSED] - Verify response successfully
+
+2018-11-27 02:43:03 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-27 02:42:47 - [TEST_SUITE][PASSED] - SOAPSampleDemoSuite: Test Cases/SOAP Test Case/TestTwo_APIChaining]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
